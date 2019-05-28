@@ -40,7 +40,7 @@ public class JenkinsPostBuild {
 		manager.addShortText(prod,"blue", "white", "1px", "blue")
 	}
 	else if(prod=='TC3Ax') {
-		manager.addShortText(prod,"white", "brown", "1px", "black")
+		manager.addShortText(prod,"green", "white", "1px", "green")
 	}
 	else {
 		manager.addShortText(prod,"black", "red", "1px", "black")
