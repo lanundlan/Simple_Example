@@ -2,7 +2,7 @@ node {
 
     def rootDir = pwd()
 
-    def jenk = load "${rootDir}/JenkinsPostBuild.Groovy "
+    def jenk = load "${rootDir}@script/JenkinsPostBuild.Groovy "
     
     jenk.run()
     
